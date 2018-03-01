@@ -194,20 +194,9 @@ var _hmt = _hmt || [];
 <h3 id="安装react"><a href="#安装react" class="headerlink" title="安装react"></a>安装react</h3><blockquote>
 <p>npm i react</p>
 </blockquote>
-<h3 id="创建目录和文件"><a href="#创建目录和文件" class="headerlink" title="创建目录和文件"></a>创建目录和文件</h3><ol>
-<li>在项目根目录，创建build目录</li>
-<li>在项目根目录创建client目录</li>
-<li>在build目录创建webpack.config.js文件</li>
-<li>在client目录创建app.js 和App.js文件</li>
-</ol>
-<p><img src="https://i.imgur.com/h8HHdkB.png" alt=""></p>
-<p>####编写配置webpack.config.js<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">//指定绝对路劲</span><br><span class="line">const path = require(<span class="string">'path'</span>)</span><br><span class="line">/**</span><br><span class="line"> *</span><br><span class="line"> * @<span class="built_in">type</span> &#123;&#123;entry: &#123;app: *&#125;, output: &#123;filename: string&#125;&#125;&#125;</span><br><span class="line"> */</span><br><span class="line">module.exports = &#123;</span><br><span class="line">    /**</span><br><span class="line">     * 告诉webpack 该文件为程序入口，</span><br><span class="line">     * 然后webpack会去找到app.js 又引用了哪些js ,然后找到所有需要打包的文件</span><br><span class="line">     */</span><br><span class="line">    entry: &#123;</span><br><span class="line">        app: path.join(__dirname,<span class="string">'../client/app.js'</span>)</span><br><span class="line">    &#125;,</span><br><span class="line">    /**</span><br><span class="line">     * 指定打包到哪个文件</span><br><span class="line">     * [name] entry配置中指定的文件名</span><br><span class="line">     * [<span class="built_in">hash</span>] 为每次打包生成的一个<span class="built_in">hash</span>值，如果应用中有一个文件修改，这个<span class="built_in">hash</span>就会从新生成，从而产生新的文件</span><br><span class="line">     * 否则不打包新的文件。这样有利于浏览器缓存。</span><br><span class="line">     *</span><br><span class="line">     */</span><br><span class="line">    output: &#123;</span><br><span class="line">        filename: <span class="string">"[name].[hash].js"</span>,</span><br><span class="line">        path: path.join(__dirname,<span class="string">'../dist'</span>), //打包目录</span><br><span class="line">        publicPath: <span class="string">'/public'</span> //静态资源文件引用时的目录</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h4 id="编写app-js"><a href="#编写app-js" class="headerlink" title="编写app.js"></a>编写app.js</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(123)</span><br></pre></td></tr></table></figure>
-<h3 id="编译项目"><a href="#编译项目" class="headerlink" title="编译项目"></a>编译项目</h3><blockquote>
-<p>npm run build</p>
-</blockquote>
-<p><img src="https://i.imgur.com/UDx9ltt.png" alt=""><br>编译后我们看到 多了“dist” 目录，并且生成了 一个 app.3fa5e3dd315365fb6eff.js 文件。文件内容为压缩后的js 内容。该内容是整个应用需要的js都在里面了。</p>
-
+        
+          <a class="article-more-a" href="/2018/03/01/react+webpack(一)：Webpack基础配置/#more">more >></a>
+        
       
 
       
