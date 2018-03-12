@@ -16,19 +16,18 @@ var _hmt = _hmt || [];
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="//ikode.site">
-  <title>ES6 基础 | C语法，代码分享</title>
+  <title>C语法，代码分享</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="ES6里都有什么？ 块级作用域、字符串、函数 对象扩展、解构 类、模块化  块级作用域letlet 只对 所在{}中起作用，在let所在{}外部不起作用如：1234&amp;#123;  let name = &apos;bbb&apos;&amp;#125;console.log(name); 这里会报错，是没法取到name的 const表示常量，定义后不允许修改。不能给常量赋值。">
-<meta name="keywords" content="ES6,前端">
-<meta property="og:type" content="article">
-<meta property="og:title" content="ES6 基础">
-<meta property="og:url" content="//ikode.site/2018/02/26/ES6/index.html">
+  <meta name="description" content="又折腾了一个githubpage blog。">
+<meta name="keywords" content="前端,js,jquery,javascript,html5,开发者,程序猿,程序媛,极客,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,html,css,css3,用户体验">
+<meta property="og:type" content="website">
+<meta property="og:title" content="C语法，代码分享">
+<meta property="og:url" content="//ikode.site/page/2/index.html">
 <meta property="og:site_name" content="C语法，代码分享">
-<meta property="og:description" content="ES6里都有什么？ 块级作用域、字符串、函数 对象扩展、解构 类、模块化  块级作用域letlet 只对 所在{}中起作用，在let所在{}外部不起作用如：1234&amp;#123;  let name = &apos;bbb&apos;&amp;#125;console.log(name); 这里会报错，是没法取到name的 const表示常量，定义后不允许修改。不能给常量赋值。">
-<meta property="og:updated_time" content="2018-03-11T02:02:02.179Z">
+<meta property="og:description" content="又折腾了一个githubpage blog。">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ES6 基础">
-<meta name="twitter:description" content="ES6里都有什么？ 块级作用域、字符串、函数 对象扩展、解构 类、模块化  块级作用域letlet 只对 所在{}中起作用，在let所在{}外部不起作用如：1234&amp;#123;  let name = &apos;bbb&apos;&amp;#125;console.log(name); 这里会报错，是没法取到name的 const表示常量，定义后不允许修改。不能给常量赋值。">
+<meta name="twitter:title" content="C语法，代码分享">
+<meta name="twitter:description" content="又折腾了一个githubpage blog。">
   
     <link rel="alternative" href="/atom.xml" title="C语法，代码分享" type="application/atom+xml">
   
@@ -160,14 +159,514 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-ES6" class="article article-type-post " itemscope itemprop="blogPost">
+            
+  
+    <article id="post-React-Webpack-Webpack-config" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 class="article-title" itemprop="name">
-      ES6 基础
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/11/React-Webpack-Webpack-config/">React+Webpack(一):Webpack基础配置</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/11/React-Webpack-Webpack-config/" class="archive-article-date">
+  	<time datetime="2018-03-11T02:02:02.179Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-11</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="Webpack-介绍"><a href="#Webpack-介绍" class="headerlink" title="Webpack 介绍"></a>Webpack 介绍</h2><p><em>webpack 现代js 的打包器。</em> </p>
+<p>下面我们用示例介绍webpack怎么打包，并且打包的效果是什么样子的。 </p>
+<p>##项目搭建</p>
+<h3 id="安装Nodejs"><a href="#安装Nodejs" class="headerlink" title="安装Nodejs"></a>安装Nodejs</h3><p>官网下载对应操作系统环境版本安装。</p>
+<h3 id="使用npm-初始化项目"><a href="#使用npm-初始化项目" class="headerlink" title="使用npm 初始化项目"></a>使用npm 初始化项目</h3><blockquote>
+<p>npm init</p>
+</blockquote>
+<p>会提示命名一些项目基本信息：项目名称，版本号，描述等信息，直接回车确认就行。</p>
+<p>这样我们目录下就会生成一个“ package.json ” 项目文件，后面我们项目依赖的包都会在这里面。</p>
+<h3 id="安装webpack"><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h3><blockquote>
+<p>npm i webpack</p>
+</blockquote>
+<h3 id="安装react"><a href="#安装react" class="headerlink" title="安装react"></a>安装react</h3><blockquote>
+<p>npm i react</p>
+</blockquote>
+        
+          <a class="article-more-a" href="/2018/03/11/React-Webpack-Webpack-config/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">webpack</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react-webpack-loader</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/11/React-Webpack-Webpack-config/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-s" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/07/s/">mobx 使用</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/07/s/" class="archive-article-date">
+  	<time datetime="2018-03-07T13:40:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-07</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>mobx 是 一个包含redux 并且能实现双向绑定的一个 插件。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">mobx</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/07/s/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-eslint-config" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/05/eslint-config/">React-Webpack-4-eslint-config</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/05/eslint-config/" class="archive-article-date">
+  	<time datetime="2018-03-05T14:30:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-05</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="需要安装的包"><a href="#需要安装的包" class="headerlink" title="需要安装的包"></a>需要安装的包</h3><blockquote>
+<p>npm i babel-eslint -D<br>npm i eslint-config-airbnb -D<br>npm i eslint-config-standard -D<br>npm i eslint-loader -D<br>npm i eslint-plugin-import -D<br>npm i eslint-plugin-jsx-a11y -D<br>npm i eslint-plugin-node -D<br>npm i eslint-plugin-promise -D<br>npm i eslint-plugin-react -D<br>npm i eslint-plugin-standard -D</p>
+</blockquote>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/05/eslint-config/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-React-dom-server" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/04/React-dom-server/">React-Webpack-react-dom/server服务端渲染</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/04/React-dom-server/" class="archive-article-date">
+  	<time datetime="2018-03-03T16:03:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-04</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#使用react-dom/server做服务端渲染</p>
+<p><em>react-dom是React专门为web端开发的渲染工具。我们可以在客户端使用react-dom的rendder方法渲染组件，而在服务端，react-dom/server提供我们将react组件渲染成HTML的方法</em></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">react-webpack</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">ract-dom/server</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/04/React-dom-server/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-React-Webpack-Webpack-loader" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/02/React-Webpack-Webpack-loader/">React+Webpack(二):Webpack loader 构建基础应用</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/02/React-Webpack-Webpack-loader/" class="archive-article-date">
+  	<time datetime="2018-03-02T06:20:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-02</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="前文"><a href="#前文" class="headerlink" title="前文"></a>前文</h2><p><a href="http://ikode.site/2018/03/03/React-Webpack-Webpack-config/" target="_blank" rel="noopener">react+webpack(一)：Webpack基础配置</a></p>
+<h2 id="安装配置-babel-loader"><a href="#安装配置-babel-loader" class="headerlink" title="安装配置 babel-loader"></a>安装配置 babel-loader</h2><p>因为我们的react 语法是jsx 非原生js 语法，浏览器是不能识别解析的。 要让jsx 转为js需要安装babel。</p>
+<blockquote>
+<p>npm i babel-core -D<br>npm i babel-loader -D</p>
+</blockquote>
+        
+          <a class="article-more-a" href="/2018/03/02/React-Webpack-Webpack-loader/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">webpack</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">react-webpack-loader</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/02/React-Webpack-Webpack-loader/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-python-paycharm-installanduse" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/27/python-paycharm-installanduse/">Python：Pycharm安装和使用</a>
+    </h1>
+  
+
+        
+        <a href="/2018/02/27/python-paycharm-installanduse/" class="archive-article-date">
+  	<time datetime="2018-02-27T00:56:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-27</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>Pycharm 分2个版本 免费版本“Community”，收费版本“Professional”</p>
+<p>Professional版本下载地址：</p>
+<blockquote>
+<p><a href="https://www.jetbrains.com/zh/pycharm/download/download-thanks.html" target="_blank" rel="noopener">https://www.jetbrains.com/zh/pycharm/download/download-thanks.html</a></p>
+</blockquote>
+<h2 id="Pycharm激活"><a href="#Pycharm激活" class="headerlink" title="Pycharm激活"></a>Pycharm激活</h2><p>目前可以的一个 license server:</p>
+<pre><code>https://jetlicense.nss.im/
+</code></pre><p>如不行自行百度吧</p>
+<h2 id="Pycharm设置快捷方式"><a href="#Pycharm设置快捷方式" class="headerlink" title="Pycharm设置快捷方式"></a>Pycharm设置快捷方式</h2><p>菜单”File”-&gt;”Settings”-&gt;”Keymap”-&gt;选择你习惯的快捷方式</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">python</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">pycharm</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/02/27/python-paycharm-installanduse/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-ES6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/26/ES6/">ES6 基础</a>
     </h1>
   
 
@@ -188,62 +687,11 @@ var _hmt = _hmt || [];
 <h2 id="块级作用域"><a href="#块级作用域" class="headerlink" title="块级作用域"></a>块级作用域</h2><h3 id="let"><a href="#let" class="headerlink" title="let"></a>let</h3><p>let 只对 所在{}中起作用，在let所在{}外部不起作用<br>如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="built_in">let</span> name = <span class="string">'bbb'</span></span><br><span class="line">&#125;</span><br><span class="line">console.log(name);</span><br></pre></td></tr></table></figure></p>
 <p><code>这里会报错，是没法取到name的</code></p>
 <h3 id="const"><a href="#const" class="headerlink" title="const"></a>const</h3><p>表示常量，定义后不允许修改。不能给常量赋值。</p>
-<a id="more"></a>
-<h2 id="字符串，模板字符串处理"><a href="#字符串，模板字符串处理" class="headerlink" title="字符串，模板字符串处理"></a>字符串，模板字符串处理</h2><h3 id="拼接"><a href="#拼接" class="headerlink" title="拼接"></a>拼接</h3><p>如：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">let</span> name = <span class="string">'bayker'</span></span><br><span class="line"><span class="built_in">let</span> course=<span class="string">'React开发APP'</span></span><br><span class="line">console.log(<span class="string">'hello '</span>+name +<span class="string">',course is '</span>+course)</span><br><span class="line">console.log(`hello <span class="variable">$&#123;name&#125;</span>,course is <span class="variable">$&#123;course&#125;</span>`)</span><br></pre></td></tr></table></figure></p>
-<p>结果是一样的。</p>
-<h3 id="换行不影响"><a href="#换行不影响" class="headerlink" title="换行不影响"></a>换行不影响</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">console.log(`hello</span><br><span class="line"> </span><br><span class="line"></span><br><span class="line"> world</span><br><span class="line"> </span><br><span class="line"> `)</span><br></pre></td></tr></table></figure>
-<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p>例子：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> hello(name)&#123;</span><br><span class="line">  console.log(`hello <span class="variable">$&#123;name&#125;</span> ！`);    </span><br><span class="line">&#125;</span><br><span class="line">const hello1=(name)=&gt;console.log(`hello <span class="variable">$&#123;name&#125;</span> ！`)</span><br><span class="line"></span><br><span class="line">hello(<span class="string">'bayker'</span>)</span><br><span class="line">hello1(<span class="string">'bayker'</span>)</span><br></pre></td></tr></table></figure></p>
-<p>这里结果是一样的。ES6 函数的写法主要是减少了 <code>function</code> 和 <code>{}</code> 的写法。<br>例子2：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">setTimeout(() =&gt; &#123;</span><br><span class="line">   console.log(<span class="string">'XXX'</span>);</span><br><span class="line">&#125;, 1000);</span><br><span class="line">const double = x =&gt;x*2</span><br><span class="line">console.log(double(5))</span><br></pre></td></tr></table></figure></p>
-<p>例子3：默认参数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">const hello =(name=<span class="string">'bayker'</span>)=&gt;&#123;</span><br><span class="line">   console.log(`hello <span class="variable">$&#123;name&#125;</span> ！`)</span><br><span class="line">&#125;</span><br><span class="line">hello()</span><br><span class="line">hello(<span class="string">'lili'</span>)</span><br></pre></td></tr></table></figure></p>
-<p>例子4：展开符<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const hello=(name1,name2)=&gt;console.log(name1,name2)</span><br><span class="line"><span class="built_in">let</span> arr = [<span class="string">'bayker'</span>,<span class="string">'lili'</span>];</span><br><span class="line">hello(...arr)</span><br></pre></td></tr></table></figure></p>
-<p>…将数组对象展开，相当于将[]去掉。</p>
-<h2 id="Object扩展"><a href="#Object扩展" class="headerlink" title="Object扩展"></a>Object扩展</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">const objet = &#123;name:<span class="string">'bayker'</span>,course:<span class="string">'react开发app'</span>&#125;</span><br><span class="line">console.log(Object.keys(objet)) //[<span class="string">"name"</span>, <span class="string">"course"</span>]</span><br><span class="line">console.log(Object.values(objet)) //[<span class="string">"bayker"</span>, <span class="string">"react开发app"</span>]</span><br><span class="line">console.log(Object.entries(objet))//[Array(2), Array(2)]</span><br></pre></td></tr></table></figure>
-<h2 id="Object扩展属性Key"><a href="#Object扩展属性Key" class="headerlink" title="Object扩展属性Key"></a>Object扩展属性Key</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">const name = <span class="string">'bayker'</span>;</span><br><span class="line">const obj = &#123;</span><br><span class="line">   name,</span><br><span class="line">   [name]:<span class="string">'hello '</span>,</span><br><span class="line">  hello:<span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line">   &#125;,</span><br><span class="line">   <span class="function"><span class="title">hello1</span></span>()&#123;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line">obj[name]=<span class="string">'hello bayker'</span>;</span><br><span class="line">console.log(obj);</span><br></pre></td></tr></table></figure>
-<p>打印出来是：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Object &#123;name: <span class="string">"bayker"</span>, bayker: <span class="string">"hello bayker"</span>, hello: <span class="keyword">function</span>, hello1: <span class="keyword">function</span>&#125;</span><br></pre></td></tr></table></figure></p>
-<p>##Object扩展 数组合并<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const obj = &#123;name:<span class="string">'bayker'</span>,course:<span class="string">'react'</span>&#125;</span><br><span class="line">const obj2=&#123;<span class="built_in">type</span>:<span class="string">'it'</span>,name:<span class="string">'chengdu'</span>&#125;</span><br><span class="line">console.log(&#123;...obj,...obj2,date:<span class="string">'2018'</span>&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>打印结果：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Object &#123;name: <span class="string">"chengdu"</span>, course: <span class="string">"react"</span>, <span class="built_in">type</span>: <span class="string">"it"</span>, date: <span class="string">"2018"</span>&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="数组解构"><a href="#数组解构" class="headerlink" title="数组解构"></a>数组解构</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//批量赋值</span><br><span class="line">const arr = [<span class="string">'hello'</span>,<span class="string">'bayker'</span>];</span><br><span class="line">//从数组里取 第一个，和第二个值</span><br><span class="line"><span class="built_in">let</span> [arg1,<span class="string">'|'</span>,arg2] = arr;</span><br><span class="line">console.log(arg1,arg2);</span><br></pre></td></tr></table></figure>
-<p>打印结果：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hello | bayker</span><br></pre></td></tr></table></figure></p>
-<h2 id="对象解构"><a href="#对象解构" class="headerlink" title="对象解构"></a>对象解构</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">const obj = &#123;name:<span class="string">'bayker'</span>,<span class="built_in">type</span>:<span class="string">'react'</span>&#125;</span><br><span class="line"><span class="built_in">let</span> &#123;name,<span class="built_in">type</span>&#125;= obj;</span><br><span class="line">console.log(name,<span class="string">"|"</span>,<span class="built_in">type</span>);</span><br></pre></td></tr></table></figure>
-<p>打印结果：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bayker | react</span><br></pre></td></tr></table></figure></p>
-<h3 id="类"><a href="#类" class="headerlink" title="类"></a>类</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//类</span><br><span class="line">class MyApp&#123;</span><br><span class="line">   //构造函数</span><br><span class="line">   <span class="function"><span class="title">constructor</span></span>()&#123;</span><br><span class="line">       this.name=<span class="string">'bayker'</span>;</span><br><span class="line">   &#125;</span><br><span class="line">  //自定义函数</span><br><span class="line">   <span class="function"><span class="title">sayHello</span></span>()&#123;</span><br><span class="line">       console.log(`hello <span class="variable">$&#123;this.name&#125;</span> !`);</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line">//实例类</span><br><span class="line">const app = new MyApp();</span><br><span class="line">app.sayHello();</span><br></pre></td></tr></table></figure>
-<h3 id="模块化"><a href="#模块化" class="headerlink" title="模块化"></a>模块化</h3><p>新建js 模块文件 module1.js<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> const name = <span class="string">'bayker'</span>;</span><br><span class="line"><span class="built_in">export</span> <span class="keyword">function</span> <span class="function"><span class="title">sayHello</span></span>()&#123;</span><br><span class="line">    console.log(<span class="string">'bayker react !'</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">export</span> default <span class="keyword">function</span> <span class="function"><span class="title">test</span></span>()&#123;</span><br><span class="line">   console.log(<span class="string">'hello bayker'</span>);    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>其他文件引用 的几种方式：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">// 只引用 name对象</span><br><span class="line">import &#123;name&#125; from <span class="string">'./module1'</span></span><br><span class="line">console.log(name);</span><br><span class="line"></span><br><span class="line">//引用方法</span><br><span class="line">import &#123;sayHello&#125; from <span class="string">'./module1'</span></span><br><span class="line">syaHello();</span><br><span class="line"></span><br><span class="line">//全部引用</span><br><span class="line">import * as mod1 from <span class="string">'./module1'</span></span><br><span class="line">console.log(mod1);</span><br><span class="line">mod1.sayHello();</span><br></pre></td></tr></table></figure></p>
-<h2 id="数组的常见使用"><a href="#数组的常见使用" class="headerlink" title="数组的常见使用"></a>数组的常见使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">//遍历数组</span><br><span class="line"> [1,2,3].forEach(<span class="keyword">function</span>(value,index)&#123;</span><br><span class="line">    console.log(value);</span><br><span class="line">&#125;)</span><br><span class="line">//映射新数组</span><br><span class="line">const arr = [1,2,3].map(v=&gt;v*2);</span><br><span class="line">console.log(arr);</span><br><span class="line">//是否都大于3</span><br><span class="line">console.log([1,2,3].every(v=&gt;v&gt;3));</span><br><span class="line">//是否存在大于3</span><br><span class="line">console.log([1,2,3].some(v=&gt;v&gt;3));</span><br><span class="line">//获取大于3的</span><br><span class="line">console.log([1,2,3,4,5].filter(v=&gt;v&gt;3));</span><br><span class="line">//数组去重</span><br><span class="line">const arr1 = [1,2,3,4,3,2,1]</span><br><span class="line">console.log([...new Set(arr1)])</span><br></pre></td></tr></table></figure>
-
+        
+          <a class="article-more-a" href="/2018/02/26/ES6/#more">more >></a>
+        
       
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/alipay.JPG">
-                      <span class="reward-type">支付宝</span>
-                    </div>
-                    
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/assets/img/weixin.JPG">
-                      <span class="reward-type">微信</span>
-                    </div>
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
-        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -267,84 +715,16 @@ var _hmt = _hmt || [];
       
 
       
-
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/02/26/ES6/">展开全文 >></a>
+        </p>
       
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
-        </div>
-      </div>
-    </span>
-  </div>
-</div>
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://ikode.site/2018/02/26/ES6/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/2018/02/27/python-paycharm-installanduse/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          Python：Pycharm安装和使用
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2018/02/26/markdownpad2/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">MarkdownPad2 使用</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -364,30 +744,100 @@ var _hmt = _hmt || [];
 
 
 
-  
-  
-  
 
   
-
+    <article id="post-markdownpad2" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/26/markdownpad2/">MarkdownPad2 使用</a>
+    </h1>
   
 
+        
+        <a href="/2018/02/26/markdownpad2/" class="archive-article-date">
+  	<time datetime="2018-02-26T03:34:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>hexo 博客已经搭建好了，但怎么编写一篇博客呢？</p>
+<p>我使用过2种方式：</p>
+<ol>
+<li><p>直接使用github，new issues 在线编辑。而且可以实时存档。</p>
+</li>
+<li><p>使用编辑器MarkdownPad2 ，官网下载-&gt;安装-&gt;tool设置 语言。不过如果是win10 系统需安装 HTML UI ENGINE： </p>
+<blockquote>
+<p><a href="http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe" target="_blank" rel="noopener">http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe</a></p>
+</blockquote>
+</li>
+</ol>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">MD</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">MarkdownPad2</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/02/26/markdownpad2/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
   
-  <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
-<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-  id: "//ikode.site/2018/02/26/ES6/",
-  owner: 'YangTianb',
-  repo: 'yangtianb.github.io',
-  oauth: {
-    client_id: 'b458c6552e251236ed61',
-    client_secret: '27bee94befc4291fc6b59337801ebc04f38c0e5f',
-  },
-})
-gitment.render('gitment-ctn')
-</script>
+  
+    <nav id="page-nav">
+      <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </nav>
   
 
 
@@ -410,8 +860,8 @@ gitment.render('gitment-ctn')
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: false,
-		isPost: true,
+		isHome: true,
+		isPost: false,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
